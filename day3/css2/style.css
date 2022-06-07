@@ -1,0 +1,21 @@
+.display-inline-block{
+    display: inline-block;
+}
+.header{
+margin-left: auto;
+margin-right: auto;
+height: 30px;
+}
+.border-box{
+    box-sizing: border-box;
+    
+}
+.bg-color1{
+   background-color:aquamarine
+}
+.bg-color2{
+    color: violet;
+}
+.bg-color3{
+    color:aliceblue;
+}

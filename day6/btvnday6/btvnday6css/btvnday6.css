@@ -1,0 +1,84 @@
+tbody td{
+    border: 1px black solid;
+}
+table{
+    border-collapse:collapse ;
+    border: 1px black solid ;
+    width: 700px;
+    height: 500px;
+}
+th{
+    width: 650px;
+    height: 50px;
+}
+.name-prize{
+    width:10%;
+}
+.row{
+    width: 100%;
+    height: 5%;
+}
+.row-th{
+    width:650px;
+    height: 50px;
+}
+.result-1{
+    width: 36%;
+}
+.result-0{
+    width: 72%;
+}
+.result-2{
+    width: 24%;
+}
+.result-3{
+    width: 18%;
+}
+tbody{
+    width: 100%;
+    height: 70%;
+}
+thead{
+    width: 100%;
+    height: 10%;
+}
+th{
+    width:100% ;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+    background-color: rgb(180, 3, 3);
+    color: white;
+}
+.pd-left-3{
+    padding-left: 5px;
+}
+.text-center{
+    text-align: center;
+}
+.loto{
+    width: 40px ;
+
+}
+.head-loto{
+    width: 5%;
+}
+.last-loto{
+    width: 13%;
+}
+
+.font-result{
+    font-size: 23px;
+    font-weight: 800;
+}
+.font-result1{
+    font-size: 30px;
+    font-weight: 800;
+    color: red;
+}
+.font-result2{
+     font-size: 20px;
+    font-weight: 500;
+    color: rgb(21, 21, 215);
+}
+

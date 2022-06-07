@@ -1,0 +1,14 @@
+{
+  "folders": [
+	{
+		"path": "../../../../Documents/hoc web/ciddynguyen1810"
+	},
+	{
+		"path": "../.."
+	}
+],
+  "settings": {
+    "DockerRun.DisableDockerrc": true,
+    "liveServer.settings.multiRootWorkspaceName": "web-frontend"
+  }
+}

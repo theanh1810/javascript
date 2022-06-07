@@ -1,0 +1,416 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 1360px;
+    height: 2500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.d-flex{
+    display: flex;
+}
+.jc-between{
+    justify-content: space-between;
+}
+.jc-around{
+    justify-content: space-around;
+}
+.jc-center{
+    justify-content: center;
+}
+.jc-end{
+    justify-content:flex-end ;
+}
+.jc-evenly{
+    justify-content: space-evenly;
+}
+.ac-center{
+    align-content: center;
+}
+.ac-between{
+    align-content: space-between;
+}
+.ac-around{
+    align-content: space-around;
+}
+.ac-end{
+    align-content: flex-end;
+}
+.ac-strech{
+    align-content: stretch;
+}
+.ai-center{
+    align-items: center;
+}
+.ji-center{
+    justify-items: center;
+}
+.f-col{
+    flex-direction: column;
+}
+.f-row{
+    flex-direction: row;
+}
+.col-1{
+    width: 8.3333333%;
+}
+.col-1-5{
+    width:12.5% ;
+}
+.col-2{
+    width: 16.666666%;
+}
+.col-2-4{
+    width: 20%;
+}
+.col-2-3{
+    width: 19%;
+}
+.col-2-5{
+    width: 22%;
+}
+.col-3{
+    width: 25%;
+}
+.col-3-4{
+    width: 30%;
+}
+.col-4{
+    width: 33.333333%;
+}
+.col-5{
+    width: 41.6666666%;
+}
+.col-6{
+    width: 50%;
+}
+.col-7{
+    width: 58.3333333%;
+}
+.col-8{
+    width: 66.6666666%;
+}
+.col-9{
+    width: 75%;
+}
+.col-9-10{
+    width: 77.15%;
+}
+.col-10{
+   width: 83.33333333%;
+}
+.col-11{
+    width: 91.6666666%;
+}
+.col-12{
+    width: 100%;
+}
+.offset-col-1{
+    margin-left: 8.33333333% ;
+}
+
+.offset-col-2{
+     margin-left:  16.666666%;
+}
+.offset-col-3{
+      margin-left: 25%;
+}
+.offset-col-4{
+     margin-left: 33.333333%;
+}
+.offset-col-5{
+     margin-left: 41.6666666%; 
+}
+.offset-col-6{
+      margin-left: 50%;
+}
+.offset-col-7{
+     margin-left: 58.3333333%;
+}
+.offset-col-7-8{
+    margin-left: 65.2%;
+}
+.offset-col-8{
+     margin-left: 66.6666666%;
+}
+
+.offset-col-9{
+   margin-left: 75%;
+}
+.offset-col-9-5{
+    margin-left: 80%;
+}
+.offset-col-10{
+     margin-left: 83.33333333%; 
+}
+.offset-col-10-5{
+    margin-left: 87.5%;
+}
+.offset-col-11{
+    margin-left: 91.6666666%;
+}
+.offset-col-12{
+    margin-left: 100%;
+}
+.offset-row-0-5{
+    margin-top: 4.166666666%;
+}
+.offset-row-1{
+    margin-top: 8.33333333% ;
+}
+.offset-row-2{
+    margin-top: 16.666666%;
+}
+.offset-row-3{
+    margin-top: 25%;
+}
+.offset-row-4{
+    margin-top: 33.333333%;
+}
+.offset-row-5{
+    margin-top: 41.6666666%; 
+}
+.offset-row-6{
+    margin-top: 50%;
+}
+.offset-row-7{
+    margin-top: 58.3333333%;
+}
+.offset-row-8{
+    margin-top: 66.6666666%;
+}
+.offset-row-9{
+    margin-top: 75%;
+}
+.offset-row-10{
+    margin-top: 83.33333333%; 
+}
+.offset-row-11{
+    margin-top: 91.6666666%;
+}
+.offset-row-12{
+    margin-top: 100%;
+}
+.header{
+    position: relative;
+}
+.row-0-5{
+    height: 6%;
+}
+.row-1{
+   height: 8.3333333%;
+}
+.row-1-5{
+    height:12.5% ;
+}
+.row-1-8{
+    height: 14%;
+}
+.row-2{
+    height: 16.666666%;
+}
+.row-2-3{
+    height: 21%;
+}
+.row-3{
+    height: 25%;
+}
+.row-3-4{
+    height: 29%;
+}
+.row-4{
+    height: 33.333333%;
+}
+.row-4-5{
+    height:39.7% ;
+}
+.row-5{
+    height: 41.6666666%;
+}
+.row-6{
+    height: 50%;
+}
+.row-6-7{
+    height: 57%;
+}
+.row-7{
+    height: 58.3333333%;
+}
+.row-7-8{
+    height: 63%;
+}
+.row-8{
+    height: 66.6666666%;
+}
+.row-8-9{
+    height: 72%;
+}
+.row-9{
+    height: 75%;
+}
+.row-10{
+   height: 83.33333333%;
+}
+.row-11{
+    height: 91.6666666%;
+}
+.row-12{
+    height: 100%;
+}
+.pd-top-15{
+    padding-top: 15px;
+}
+.nav{
+    position: fixed;
+}
+.font-nav{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    text-decoration: none;
+    color: white;
+}
+.font-poster{
+       font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    text-decoration: none;
+    color: grey;
+   
+}
+.font-info-poster1{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 900;
+    text-decoration: none;
+    color: #DFDFDE;
+    
+}
+.font-info-poster{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    text-decoration: none;
+    color: #DFDFDE;
+    
+}
+.font-nav:hover{
+    font-weight: 600;
+    color: grey;
+    border-bottom: 2px white solid;
+    transition: ease-out 0.1s;
+}
+.caret:hover {
+   transform: rotate(0.5turn);
+   transition: 0.5s ease-out; 
+}
+.dropdown{
+    margin-top: 3px ;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.dropdown-list{
+    position: absolute;
+    background-color: black;
+    text-decoration: none;
+    visibility: visible;
+
+}
+.dropdown-list:before{
+    content: "";
+    top: 0;
+    left:13rem;
+    border-left: 10px solid transparent ;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid black;
+    transform: translateY(-100%);
+    position: absolute;
+}
+.right-nav:hover  ul.dropdown-list{
+     position: absolute;
+    background-color: black;
+    text-decoration: none;
+    visibility: visible;
+}
+.icon-sub-ava{
+    color: white;
+    padding-top:10px ;
+}
+.font-sub-ava{
+    color:white;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-weight: 500;
+    padding-top: 15px;
+}
+.font-sub-ava1{
+    color:white;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-weight: 500;
+    padding-top: 15px;
+    padding-right:15px ;
+}
+.border-ava{
+    border-bottom: 1px gray solid;
+    padding-bottom:1px ;
+}
+.dropdown-item{
+    background-color: white;
+}
+.my-list{
+    background-image: linear-gradient(grey, black);
+    position: absolute;
+    margin-top: -100px;
+}
+.font-title-my-list{
+    font-size: 25px;
+    font-family: "Netflix Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    color: white;
+    padding-left: 37px;
+    align-items: center;
+}
+.font-ea{
+    font-size: 14px;
+    font-family: "Netflix Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    color: #51b6c1;
+    align-items: center;
+    justify-content: start;
+}
+.main{
+    background-image: linear-gradient(black,black);
+    margin-top: -35px;
+}
+.title-main{
+    background-color: rgb(183, 3, 3);
+    margin-top: -100px;
+}
+.p.absolute{
+    position: absolute;
+}
+.p-relative{
+    position: relative;
+}
+.footer{
+    background-color: black;
+}
+.footer-icon{
+    color: white;
+    text-decoration: none;
+}
+.font-text-footer{
+    font-size: 14px;
+    color: white;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+}

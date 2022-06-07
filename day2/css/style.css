@@ -1,0 +1,41 @@
+.heading{
+    font-size: 30px;
+    color: red;
+}
+.text-center{
+    text-align: center;
+}
+.text-fontsize {
+     font-size:  30px;
+}
+.text-green{
+    color: green;
+}
+.text-sapce-normal{
+    letter-spacing: normal;
+}
+.text-ariral{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.text-bold{
+    font-weight: 700;
+}
+.text-left-30px{
+    margin-left: 30px;
+}
+.text-sm{
+    font-size: 5px;
+}
+.text-large{
+    font-size: 40px;
+}
+.text-uppercase{
+    text-transform: uppercase;
+}
+/* color 
+text
+link
+list
+width/height
+background
+fonts

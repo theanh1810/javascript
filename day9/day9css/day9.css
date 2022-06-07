@@ -1,0 +1,36 @@
+html{
+    --bgcolor: grey;
+}
+body{
+    background-color: var(--bgcolor);
+}
+:root{
+    --bg1:  #405DE6;
+    --bg2: #5B51D8;
+    --bg3: #833AB4;
+    --bg4: #C13584;
+    --bg5:#E1306C;
+    --bg6:#FD1D1D;
+    --bg7:#F56040;
+    --bg8:#F77737;
+    --bg9:#FCAF45;
+    --bg10:#FFDC80;
+}
+.color-ins{
+background:linear-gradient(to bottom right,var(--bg1),var(--bg2),var(--bg3),var(--bg4),var(--bg5),var(--bg6),var(--bg7),var(--bg8),var(--bg9),var(--bg10)) ;
+}
+.container{
+    width: 200px;
+    height: 200px;
+}
+.box{
+    animation: expand 1s infinite;
+}
+@keyframes expand{
+    from{
+        width: 200px;
+    }
+    to{
+        width: 100%;
+    }
+}

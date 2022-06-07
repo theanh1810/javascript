@@ -1,0 +1,357 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.img {
+  max-width: 100%;
+}
+
+.container {
+  width: 1110px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.d-inline-block {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.bg-dodgerblue {
+  background-color: dodgerblue;
+}
+
+.bg-grey {
+  background-color: grey;
+}
+.bg-grey-nav{
+    background-color: #efefef;
+}
+.bg-white{
+    background-color: white;
+}
+.d-inline{
+    display: inline;
+}
+.bg-blue {
+  background-color: #0066CC;
+}
+
+.bg-white {
+  background-color: #ffffff;
+}
+
+.header {
+  height: 60px;
+}
+.tag-div1-header{
+    height: 60px;
+    width: 80px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.up-book{
+    margin-left: 40px;
+    width: 120px;
+}
+.button-search{
+    max-width: 40px; max-height: 40px; padding-bottom: 2px;
+    margin-left: 232px;
+}
+.card-nav {
+  width: 255px;
+  height: 180px;
+}
+.img-nav-card{
+    width: 125px;
+    height: 180px;
+}
+.info-item{
+    display: inline-block;
+   width: 120px;
+   height: 180px;
+   position: relative;
+   top: -60px;
+   left: 20px;
+
+}
+.info-item-alpha{
+    display: inline-block;
+    width: 100px;
+    height: 50px;
+}
+.font-item-alpha{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    text-align: inherit;
+    text-decoration: none;
+    color: black;
+}
+.font-item-beta{
+   font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    text-decoration: none;
+}
+.info-item-beta{
+    display: inline-block;
+    width: 100px;
+    height :40px;
+    background-color: white;
+    text-decoration: none;
+    font-size: 10;
+}
+.font-item-delta{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    text-align: inherit;
+    text-decoration: none;
+    color: black;
+    margin-left: 5px;
+}
+.info-item-delta{
+    display: inline-block;
+    width: 80px;
+    height: 28px;
+    font-family:Arial, Helvetica, sans-seria;
+border-style: solid;
+border-radius: 10px;
+margin-left: px;
+background-color: azure;
+}
+
+.font-weight-bold{
+    font-weight: 700;
+}
+.mg-right{
+    margin-right: 13px;
+}
+
+.nav{
+  height: 362px;
+}
+
+.div1-nav{
+    height: 60px;
+}
+.tag-div1-nav{
+    height: 60px;
+    width: 80px;
+    text-align: center;
+    padding-top: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+.tag-div2-header{
+   height: 60px;
+    width: 120px;
+    text-align: center;
+text-transform: uppercase;
+font-weight: bold;
+}
+
+.mb-10{
+    margin-bottom: 10px;
+}
+.mb-30{
+  margin-bottom: 60px;
+}
+
+.p-10 {
+  padding: 10px;
+}
+.sign-in{
+    margin-left: 514px;
+    width: 120px;
+}
+.register{
+margin-left: 20px ;
+
+}
+
+.main {
+  width: 820px;
+}
+.border-bottom{
+border-bottom: 2px solid black ;
+}
+.border-right{
+    border-right: 2px solid black ;
+}
+.card-seletion {
+  width: 160px;
+  height: 370px;
+  margin-left: 20px;
+  box-shadow: 5px 5px 10px 5px black ;
+}
+.size-seletion{
+    width: 160px;
+    height: 255px;
+}
+.font-seletion{
+        font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    text-align: inherit;
+    text-decoration: none;
+    color: black;
+    margin-top: 20px;
+    text-align: center;
+}
+.font-seletion2{
+     font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    text-decoration: none;
+    margin-left: 10px;
+    color: black;
+}
+.font-seletion3{
+     font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    text-decoration: none;
+    margin-left: 10px;
+    color: black;
+}
+.border-seletion2{
+margin-top:20px ;
+border-style: solid;
+border-radius: 10px;
+height: 30px;
+width: 70px;
+margin-left: 5px;
+background-color: #f1eee9;
+}
+.footer {
+  height: 100px;
+}
+
+.aside {
+  /* Cho cục aside căn theo lề trên */
+  vertical-align: top;
+    width: 290px;
+    height: 1200px;
+    display: inline-block;
+    margin-left: 820px;
+    margin-top: -1202px;
+    border: solid;
+    border-width:  4px;
+    border-color: grey;
+}
+.header-aside{
+            font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    text-align: inherit;
+    text-decoration: none;
+    color: white;
+    margin-top: 20px;
+    text-align: center;
+    margin-top:20px ;
+border-style: solid;
+border-radius: 10px;
+height: 50px;
+width: 150px;
+margin-left: 20px;
+background-color: #39A2DB;
+padding-top: 7px ;
+
+}
+.card-aside{
+    width:282px ;
+    height: 120px;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-color:grey ;
+}
+.font-card-aside{
+       font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+    margin-left: 10px;
+    color: black;
+}
+.font-card-aside2{
+       font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 10px;
+    color: black;
+}
+.card-aside-position{
+    width: 160px;
+    height: 120px;
+    margin-left: 122px;
+    margin-top: -123px;
+}
+.card-info-position{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.card-border-aside{
+    border-style: solid;
+border-radius: 10px;
+height: 30px;
+width: 70px;
+margin-left: 20px;
+background-color: #f1eee9;
+padding-left: 3.5px;
+padding-top: 3px;
+}
+.close-aside{
+     font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    text-align: inherit;
+    text-decoration: none;
+    color: white;
+    margin-top: 20px;
+    text-align: center;
+    margin-top:30px ;
+border-style: solid;
+border-radius: 10px;
+height: 50px;
+width: 250px;
+margin-left: 15px;
+background-color: #39A2DB;
+padding-top: 12px ;}
+.img-card-aside{
+    width: 40%;
+    height: 116.9px;
+}
+.mg-top-20{
+    margin-top: 20px;
+}
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.text-center {
+  text-align: center;
+}
+.main-size{
+    height: 100%;
+}
+.footer-info{
+    margin-top: 10px;
+    font-weight: 500;
+    font-size: 20px;
+    margin-left: 20px;
+
+}
+.footer-info2{
+    font-weight: 500;
+    font-size: 20px;
+    margin-left: 20px; 
+}

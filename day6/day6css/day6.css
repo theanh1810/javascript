@@ -1,0 +1,52 @@
+table {
+  caption-side: top;
+  border-collapse: collapse;
+}
+
+/* Chỉ thêm viền cho hàng/cột trong thead và tbody */
+/* Bộ chọn này là chọn tất cả thẻ con bên trong */
+caption,
+tbody tr,
+thead th,
+tbody td {
+  border: 1px solid grey;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: hotpink;
+}
+
+tbody td:nth-child(4),
+tbody td:nth-child(5),
+tbody td:nth-child(6) {
+  text-align: right;
+}
+
+th,
+td {
+  padding: 5px;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-bold {
+  font-weight: 700;
+}
+
+.text-italic {
+  font-style: italic;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+.mb-10 {
+  margin-bottom: 10px;
+}
+
+.text-lg {
+  font-size: 20px;
+}

@@ -1,0 +1,404 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  display: flex;
+  width: 1680px;
+  height: auto;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.d-flex {
+  display: flex;
+}
+.header-container {
+  display: flex;
+  flex-direction: column;
+
+}
+.container-grid {
+  display: grid;
+}
+.title-header {
+  width: 1680px;
+  height: 30px;
+  background-color: grey;
+}
+.font-title-header {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  font-weight: 200;
+  color: black;
+  font-style: italic;
+  text-align: center;
+  padding-top: 5px;
+}
+.header-usa {
+  width: 100px;
+  height: 120px;
+  justify-content: center;
+  align-items: center;
+}
+.logo-usa {
+  width: 25px;
+  height: 20px;
+}
+.button-size-usa {
+  width: 20px;
+  height: 20px;
+}
+.font-usa {
+  margin-left: 5px;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  color: black;
+}
+.header {
+  width: 1680px;
+  flex-direction: row;
+  height: 120px;
+  justify-content: space-around;
+  border-bottom-style: solid;
+}
+.img-zara {
+  width: 180px;
+  height: 118px;
+  background-color: #ffffff;
+}
+.button-size-cart {
+  width: 80px;
+  height: 40px;
+  align-items: center;
+}
+.mg-right-10 {
+  margin-right: 10px;
+}
+.mg-right-20{
+    margin-right: 5px;
+}
+.mg-left-50{
+    margin-left: 40px;
+}
+.mg-top-20{
+    margin-top: 20px;
+}
+.nav{
+    width: 1680px;
+    height: 60px;
+}
+.nav-main-div{
+    flex-direction: row;
+    justify-content: space-between;
+    width:1680px ;
+}
+.nav-div{
+    flex-direction: row;
+}
+.size-button-nav{
+    width:35px;
+    height: 35px;
+}
+.size-button-nav1{
+    width:20px;
+    height: 20px;
+}
+.nav-home{
+    padding-top: 8px;
+}
+.font-nav{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    padding-top: 8px;
+}
+.main-size{
+    width: 1200px;
+    height: 1400px;
+    background-color:white;
+    margin-top: 50px;
+    flex-direction: row;
+}
+.main-section-a{
+    width: 60%;
+    height: 95%;
+    background-color: white;
+    flex-direction: column;
+}
+.main-section-b{
+    width: 450px;
+    height: 1200px;
+    background-color: white;
+    flex-direction: column;
+}
+.item-section-a{
+    width: 100%;
+    height: 70%;
+    background-color: white;
+    margin-bottom: 10px;
+}
+.img-item-section-a{
+    width: 717px;
+    height: 928px;
+}
+.item-section-c{
+    margin-top: 15px;
+    width: 169px;
+    height: 265px;
+    background-color: white;
+}
+.section-c{
+    flex-direction: row;
+    color: white;
+    height: 30%;
+    width: 100%;
+    gap: 15px;
+    background-color: white;
+}
+.img-item-section-c{
+    width: 175px;
+    height: 262px;
+}
+.mg-bottom-30{
+    margin-bottom: 30px;
+}
+div.stars {
+  width: 420px;
+  display: flex;
+  flex-direction: row-reverse;
+  margin-top: 20px;
+  margin-left: -10px;
+}
+ 
+input.star { display: none; }
+ 
+label.star {
+  float: right;
+  padding-right: 10px;
+  font-size: 26px;
+  color: #444;
+  transition: all .2s;
+}
+ 
+input.star:checked ~ label.star:before {
+  content: '\f005';
+  color: #FD4;
+  transition: all .25s;
+}
+ 
+input.star-5:checked ~ label.star:before {
+  color: #FE7;
+  text-shadow: 0 0 20px #952;
+}
+ 
+input.star-1:checked ~ label.star:before { color: #F62; }
+ 
+label.star:hover { transform: rotate(-15deg) scale(1.3); }
+ 
+label.star:before {
+  content: '\f006';
+  font-family: FontAwesome;
+}
+.div-back-to{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    font-size: 13px;
+}
+.back-to-women{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: gainsboro;
+    text-decoration: none;
+}
+.header-section-b{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.review-3{
+    border-right-style:solid ;
+    width: 80px; height: 25px; margin-left: 20px;
+    padding-top:10px ;
+    font-size: 14px;
+    margin-top: 2px;
+    border-right-color: grey;
+}
+.add-review{
+    font-weight: 550;
+    padding-top: 20px;
+    font-size: 14px;
+    text-transform: uppercase;
+    width:220px; height: 30px; margin-left: 10px;
+    color: black;
+}
+.cost{
+   margin-top: 20px;
+   font-size: 30px;
+   color: #8CC0DE;
+   margin-bottom: 20px;
+}.describe{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+}
+.describe2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: #8CC0DE;
+    padding-left: 3px;
+}
+.mg-bottom-10{
+  margin-bottom: 10px;
+}
+.mg-bottom-40{
+  margin-bottom: 40px;
+}
+.content{
+  width: 450px;
+  font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    font-size: 16px;
+    color: black;
+    font-style: italic;
+    text-align: justify;
+    letter-spacing: -0.4px;
+}
+.mg-left-30{
+  margin-left: 30px;
+}
+.mg-bottom-5{
+  margin-bottom: 5px;
+}
+.justify-content-sa{
+  justify-content: space-around;
+  margin-left: -20px;
+}
+.font-label{
+  font-weight: 800;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+.size-label-color{
+ width:40px;
+ height: 20px;
+}
+.mg-top-40{
+  margin-top: 40px;
+}
+.font-share{
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.font-facebook{
+    text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 13px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.f-188k{
+  background-color: white ;margin-left: 5px;width: 50px;height:20px ; justify-content: center; padding-top: 1px; margin-top: 8px; border-style:solid ;
+  padding-left: 10px;
+ border-top-left-radius:100px 50px ;
+ border-bottom-left-radius: 100px 50px;
+ font-weight: 100;
+ color: grey;
+}
+.color-ins{
+background:linear-gradient(to bottom right,var(--bg1),var(--bg2),var(--bg3),var(--bg4),var(--bg5),var(--bg6),var(--bg7),var(--bg8),var(--bg9),var(--bg10)) ;
+}
+:root{
+    --bg1:  #405DE6;
+    --bg2: #5B51D8;
+    --bg3: #833AB4;
+    --bg4: #C13584;
+    --bg5:#E1306C;
+    --bg6:#FD1D1D;
+    --bg7:#F56040;
+    --bg8:#F77737;
+    --bg9:#FCAF45;
+    --bg10:#FFDC80;
+}
+.font-ins{
+  width: 20px;height:20px ; justify-content: center; padding-top: 1.5px; margin-top: 8px;
+  color: white;
+  padding-left:3px ;
+  border-radius: 5px;
+}
+.font-99k{
+  width: 40px;height:20px ; justify-content: center; padding-top: 1px; margin-top: 8px;
+margin-left: 2px;
+color: grey;
+background-color: white;
+border-radius: 10px;
+padding-left: 8px;
+border-style: solid ;
+border-color: grey; 
+}
+.font-twitter{
+    width: 23px;height:23px ; justify-content: center; padding-top: 1.3px; margin-top: 7px;
+  background-color: white;
+  padding-left:3px ;
+  border-radius: 5px;
+  border: solid;
+}
+.font-59k{
+  width: 40px;height:23px ; justify-content: center; padding-top: 1px; margin-top: 7px;
+margin-left: 2px;
+color: grey;
+background-color: white;
+border-radius: 10px;
+padding-left: 8px;
+border-style: solid ;
+border-color: grey; 
+}
+.size-footer{
+  width: 1680px;
+  height: 120px;
+  background-color: black;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.size-item1-footer{
+  width: 400px;
+  height: 70px;
+}
+.size-item2-footer{
+  width: 400px;
+  height: 100px;
+}
+.size-item3-footer{
+  width: 400px;
+  height: 70px;
+}
+.font-footer-contant{
+  color: white;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 400;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.font-footer-content{
+  color: white;
+    font-size: 20px;
+  font-weight: 700;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.font-footer-time{
+  color: white;
+   font-size: 18px;
+  font-weight: 300;
+  font-family: 'Times New Roman', Times, serif;
+}

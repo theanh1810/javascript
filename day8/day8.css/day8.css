@@ -1,0 +1,47 @@
+.container{
+    width: 100px;
+    height: 100px;
+    animation: move_right 3s infinite;
+}
+.absolute{
+    position: absolute;
+}
+.relative{
+    position: relative;
+}
+.border-r{
+    border-radius: 50%;
+    
+}
+.container1{
+    width: 50px;
+    height: 50px;
+}
+.container2{
+    width: 25px;
+    height: 25px;
+}
+@keyframes move_right{
+    0%{
+        left:0px;
+        top:0px;
+        
+    }
+    25%{
+        top:0px;
+        left:200px;
+    }
+    50%{
+        left:200px;
+        top: 200px;
+    }
+    75%{
+        top:200px;
+        left: 0px;
+    }
+    100%{
+        top:0px;
+        left:0px;
+    }
+
+}
