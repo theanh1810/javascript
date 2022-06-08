@@ -12,5 +12,5 @@ function compoundInterest(P, r, n, t) {
   );
 }
 compoundInterest(1000000, 0.6 / 100, 12, 2);
-compoundInterest(1000000, 0, 6 / 100, 4, 2);
-compoundInterest(1000000, 0, 6 / 100, 1, 2);
+compoundInterest(1000000, 0.6 / 100, 4, 2);
+compoundInterest(1000000, 0.6 / 100, 1, 2);
