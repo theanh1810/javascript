@@ -48,7 +48,7 @@ for (const key in object) {
 }
 console.log(key);
 let clone = dog;
-clone.namE = "CoCa";
+clone.names = "CoCa";
 console.log(clone);
 let copy = {};
 
