@@ -32,8 +32,9 @@ for (let key in dog) {
 dog.isCrazy = "max";
 dog.crazy = function (a) {
   if (a == dog.isCrazy) {
-    for (let key in dog) {
-      console.log(` ${dog.run()} ${dog.bark()} `);
+        for (let i = 0; i < 5; i++ ) {
+      this.run();
+      this.bark();
     }
   } else console.log(`${this.names} is not crazy`);
 };
