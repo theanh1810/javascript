@@ -4,15 +4,9 @@ function capitalize(str) {
     console.log(newstr)
 }
 capitalize("the anh  ")
+//bai2 loi
 
-function title(str) {
-    let arrayStr = str.trim().split(" ")
-
-    let strarr = (arrayStr.map(element => element.charAt(0).toUpperCase() + element.substring(1).toLowerCase())).toString()
-    console.log(strarr)
-}
-title("Lap TRINH JaVa")
-
+//bai3
 function protectEmail(str) {
     let t = str.length - 12
     const p = str.substr(2, t)
@@ -20,7 +14,7 @@ function protectEmail(str) {
     console.log(str1)
 }
 protectEmail("theanh1810@gmail.com")
-
+//bai4
 function reverse(str) {
     console.log("The original string is: " + str);
     let splitStr = str.split(""); 
@@ -30,6 +24,7 @@ function reverse(str) {
 
 }
 reverse("The Anh")
+//bai5
 function countVowel(str) {
     let count = 0
     for (let i = 0; i < str.length; i++){
@@ -40,6 +35,7 @@ function countVowel(str) {
     console.log(count)
 }
 countVowel("the anh")
+//bai6
 function reverseWords(str) {
     console.log("The original string is: " + str);
     let splitStr = str.split(" ");
@@ -48,7 +44,7 @@ function reverseWords(str) {
     console.log("The reversed string is: " + reversedStr);
 }
 reverseWords("The Anh La Ai")
-
+//bai7
 function randomHex() {
     var letters = "0123456789abcdef"
     var color = "#"
@@ -58,13 +54,14 @@ function randomHex() {
     console.log(color)
 }
 randomHex()
-
+//bai8
 function parameterize(str) {
     let spliturl = str.split(" ");
     let joinurl = spliturl.join("-");
     console.log(joinurl)
 }
 parameterize("Day la ai zi")
+//bai9 tham khao a son
 function isPalindrome(str) {
      let regex = /\s/g;
 
@@ -84,7 +81,7 @@ function isPalindrome(str) {
 isPalindrome("Race car")
 isPalindrome("Ba");
 
-
+//bai1 tham khao a son
 //Viết hàm mostCommonCharacter(str) tìm và trả về ký tự xuất hiện nhiều lần nhất trong chuỗi, nếu có nhiều ký tự có số lần xuất hiện giống nhau thì trả về ký tự đứng trước theo bảng alphabe
 function mostCommonCharacter(str) {
   let result = [];
@@ -106,6 +103,7 @@ function mostCommonCharacter(str) {
 console.log(mostCommonCharacter("Hello WorLdo"));
 console.log(mostCommonCharacter("Ba Nguyen"));       
 //
+//bai 2 chua lam dc
 const students = [
  { name: "Hoàng Thị Ngọc Linh", point: 0 },
  { name: "Bùi Lan Nhi", point: 0 },
