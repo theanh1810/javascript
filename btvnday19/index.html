@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-
+scale=1.0"
+    />
+    <title>DOM Basic</title>
+  </head>
+  <body>
+    <h1 class="heading">Hello DOM</h1>
+    <img class="avatar" src="" alt="" />
+    <link class="profile" rel="stylesheet" href="" />
+    <ul class="favorite">
+      <li>A</li>
+      <li>Play game</li>
+      <li>Listen music</li>
+      <li>D</li>
+    </ul>
+    <div class="clock">Bây giờ là</div>
+    <p class="bio">
+      Thầy giáo Ba đẹp trai Thầy giáo Ba đẹp trai Thầy giáo Ba đẹp trai Thầy
+      giáo Ba đẹp trai Thầy giáo Ba đẹp trai Thầy giáo Ba đẹp trai Thầy giáo Ba
+      đẹp trai Thầy giáo Ba đẹp trai Thầy giáo Ba đẹp trai Thầy giáo Ba đẹp trai
+      Thầy giáo Ba đẹp trai Thầy giáo Ba đẹp trai
+    </p>
+    <p class="num-of-words"></p>
+    <table class="list-students">
+      <tbody>
+        <tr>
+          <td>Giang Hồng Sơn</td>
+        </tr>
+        <tr>
+          <td>Bùi Lan Nhi</td>
+        </tr>
+        <tr>
+          <td>Hoàng Thị Ngọc Linh</td>
+        </tr>
+      </tbody>
+    </table>
+    <script>
+      const heading = "Thầy giáo Ba đẹp trai ";
+      const avatar = "https://i.imgur.com/2rP9dFO.png";
+      const profile = "https://twitter.com/banx9x";
+      let headChild = document.head.children;
+      let title = headChild[3];
+      title.innerHTML = heading;
+      // 2. Thay đổi nội dung của thẻ h1 thành giá trị của heading
+      let h1 = document.body.firstElementChild;
+      h1.innerHTML = heading;
+      // 4. Thay đổi src của thẻ link thành giá trị của profile
+     let profileElement = document.getElementsByClassName("profile");
+      profileElement.href = profile;
+      // 3. Thay đổi src của thẻ img thành giá trị của avatar
+      let imgElement = document.getElementsByClassName("avatar");
+      imgElement.src = avatar;
+      // 5. Thay đổi nội dung của thẻ li cuối cùng trong thẻ ul thành Sleep
+    let liList = document.getElementsByTagName("li");
+      console.log(liList);
+
+      liList[liList.length - 1].innerHTML = "Sleep";
+      // 6. Thay đổi nội dung của thẻ li đầu tiên trong thẻ ul thành Code application
+      liList[0].innerHTML = "Code Application";
+      // 7. Thay đổi nội dung của div thành thời gian hiện tại theo mẫu Bây giờ là giờ:phút:giây,
+      // ngày ngày/tháng/năm
+      // let clockElement = document.getElementsByClassName("clock")
+      let clockElement = document.querySelector(".clock");
+      console.log(clockElement);
+
+      let now = new Date();
+      let time = " " + now.getHours() + ":" + now.getMinutes() + ":" + now.getSeconds() + " - " + now.getDate() + "/" + (now.getMonth() + 1) + "/" + now.getFullYear()
+      console.log(time);
+      clockElement.innerHTML = clockElement.textContent.concat(time);
+
+      // Đếm số từ trong đoạn văn p.bio xem có bao nhiêu từ Ba (không phân biệt chữ hoa chữ
+      // thường) và thêm nội dung vào thẻ p.num-of-words bên dưới thông báo kết quả dạng Ở đoạn
+      // văn trên có xx từ 'Ba'
+      let pBio = document.querySelector(".bio");
+      let pBioString = pBio.textContent;
+
+      let pBioArray = pBioString.trim().toLowerCase().split(" ");
+      console.log(pBioArray);
+
+      let count = 0;
+      let s = "ba";
+
+      for (let i = 0; i < pBioArray.length; i++) {
+        if (pBioArray[i].includes(s)) {
+          count++;
+        }
+      }
+      console.log(count);
+
+      let numOfWords = document.querySelector(".num-of-words");
+      numOfWords.innerHTML = `Đoạn văn trên có tất cả ${count} từ Ba`;
+      // 9. Thêm một hàng mới vào table (tham khảo API của HTMLTableElement)
+      let tBody = document.querySelector("tbody");
+
+      let newRow = tBody.insertRow();
+      // 10. Thêm một cột (ô) mới vào hàng vừa tạo có nội dung Thầy giáo Ba siêu cấp đẹp trai
+      let newCell = newRow.insertCell();
+      let newText = document.createTextNode("Thầy giáo Ba siêu cấp đẹp trai");
+      newCell.appendChild(newText);
+    </script>
+  </body>
+</html>
